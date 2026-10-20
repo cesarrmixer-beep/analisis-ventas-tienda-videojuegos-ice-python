@@ -23,4 +23,4 @@ Análisis de ventas en la tienda ICE usando Numpy, Scipy, Seaborn, Matplotlib
 Abre el archivo `tienda_video_juegos_ice.ipynb` para ver todo el análisis.
 
 ---
-Hecho por [cesarrmixer-beep](https://github.com/cesarrmixer-beep) | Aspirante a Data Analyst
+Hecho por [cesarrmixer-beep](https://github.com/cesarrmixer-beep) | Jr. Data Analyst
