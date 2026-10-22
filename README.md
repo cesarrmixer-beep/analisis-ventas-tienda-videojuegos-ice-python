@@ -43,7 +43,7 @@ Estrategia, Aventura y Puzzle representan <5% de ventas globales desde 2018. Sto
 
 ### 📈 Visualización
 
-[Deja aquí tu gráfica principal de ventas por plataforma - la que ya tienes]
+![Ventas por Género](ventas_ice.png)
 
 ---
 
