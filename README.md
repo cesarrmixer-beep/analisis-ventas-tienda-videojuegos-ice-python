@@ -6,6 +6,8 @@ Análisis de ventas en la tienda ICE usando Numpy, Scipy, Seaborn, Matplotlib
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![EDA](https://img.shields.io/badge/EDA-00C853?style=for-the-badge)
 
+![Ventas Totales y Promedio por Género](ventas_ice.png)
+
 > Proyecto de Análisis Exploratorio (EDA) del dataset tienda ICE para entender patrones de compra.
 
 ### 📊 ¿Qué hay en este repo?
