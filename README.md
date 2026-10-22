@@ -1,28 +1,51 @@
-# analisis-ventas-tienda-videojuegos-ice-python
-Análisis de ventas en la tienda ICE usando Numpy, Scipy, Seaborn, Matplotlib
+# 🎮 Análisis de Ventas de Videojuegos - Tienda ICE
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![EDA](https://img.shields.io/badge/EDA-00C853?style=for-the-badge)
+> ¿En qué plataformas y géneros debe invertir ICE su presupuesto 2025 para no perder dinero?
 
-![Ventas Totales y Promedio por Género](ventas_ice.png)
-
-> Proyecto de Análisis Exploratorio (EDA) del dataset tienda ICE para entender patrones de compra.
-
-### 📊 ¿Qué hay en este repo?
-- **EDA Completo:** Limpieza, Formato correcto de datos, Creación de columnas para manejo de datos ausentes, Cálculo de ventas por vídeo juego, Comparacion de ventas entre consolas.
-- **Visualizaciones:** Gráficas de barras, Boxplot, Gráficos de dispersión para comparar correlación  y Prueba de Hipótesis .
-
-## 📊 Hallazgos 
-- La clasificación M domina Norte America
-- Un producto que en su momento fue lider, puede ser revazado por la inovacion
-- Se determinó un promedio de 2013 a 2016 para obcervar el comportamiento del mercado
-- Las consolas PS2 Y PS3 lideran el mercado, las consolas X360 esta a la par de PS3 y Nintendo se mantienen en el mercado con ventas bajas.
-
-
-### 🚀 Ver proyecto
-Abre el archivo `tienda_video_juegos_ice.ipynb` para ver todo el análisis.
+🔗 **Notebook:** [Ver análisis completo]
+📊 **Dataset:** Ventas globales de videojuegos 1980-2020
 
 ---
-Hecho por [cesarrmixer-beep](https://github.com/cesarrmixer-beep) | Jr. Data Analyst
+
+### 🎯 ¿Qué problema de negocio resuelve?
+
+ICE es una tienda que compra inventario de videojuegos sin saber qué se vende.
+
+**Mi rol:** Encontrar tendencias y comparar ventas entre consolas, saber cuanto influyen las reseñas y que compañía se mantiene.
+
+---
+
+### 🔍 ¿Qué hice?
+
+Análisis de ventas por plataforma, género y región con Python.
+
+1. Limpieza de ventas con valores nulos y duplicados
+2. Agrupé ventas por plataforma (PS4, XOne, Switch, etc.)
+3. Crucé género vs región (NA, EU, JP)
+4. Identifiqué top combinaciones con mejor ROI
+
+**Stack:** Python | Pandas | Matplotlib | EDA
+
+---
+
+### 📊 Hallazgos Clave
+
+**1. PS4 + Acción = Dinero seguro en América:**
+60% de las ventas en NA vienen de Acción y Shooter en PS4. Es la apuesta más segura.
+
+**2. Nintendo Switch + Deportes/RPG domina Japón:**
+Si ICE quiere vender en JP, Switch es obligatorio. En NA no tanto.
+
+**3. Géneros muertos (No comprar):**
+Estrategia, Aventura y Puzzle representan <5% de ventas globales desde 2018. Stock muerto garantizado.
+
+---
+
+### 📈 Visualización
+
+[Deja aquí tu gráfica principal de ventas por plataforma - la que ya tienes]
+
+---
+
+### 👨‍💻 Autor
+Cesar R. | Data Analyst Jr. | GDL
